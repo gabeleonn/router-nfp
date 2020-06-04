@@ -1,0 +1,21 @@
+{
+    "name": "gabeleonn/router",
+    "description": "This is a simple router for PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Leon",
+            "email": "gableonn@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Core\\": "app/bin",
+            "Controllers\\" : "app/controllers",
+            "Views\\" : "app/views"
+        }
+    }
+}
